@@ -119,5 +119,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HRA.DataStructs\HRA.DataStructs.csproj">
+      <Project>{059af9a9-6404-49fa-9628-2515af2d0bfd}</Project>
+      <Name>HRA.DataStructs</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

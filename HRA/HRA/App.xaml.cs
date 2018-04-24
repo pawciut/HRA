@@ -15,7 +15,8 @@ namespace HRA
         {
             base.OnStartup(e);
 
-            var bs = new Bootstrapper();
+            Bootstrapper bs = new Bootstrapper();
+            //var bs = new Bootstrapper();
             bs.Run();
         }
     }
