@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace HRA.ServiceDummy
 {
-    public class Services: IService
+    public class Service: IService
     {
 
     }
